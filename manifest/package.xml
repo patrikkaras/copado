@@ -2,39 +2,13 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>*</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Customer_Custom__c-Customer Layout</members>
+        <members>Invoice_Custom__c-Invoice Layout</members>
+        <members>Invoice_Customer__c-Invoice Customer Layout</members>
         <name>Layout</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
     </types>
     <types>
         <members>Admin</members>
@@ -42,10 +16,6 @@
         <members>Custom: Sales Profile</members>
         <members>Custom: Support Profile</members>
         <name>Profile</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
     </types>
     <version>55.0</version>
 </Package>
